@@ -1,0 +1,134 @@
+body, div, input, p {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 0.8em;
+  width: 420px;
+  height: 200px;
+}
+body{
+  font-size: 0.8em;
+  width: 100%;
+  height: 100%;
+}
+#add{
+    height: 80px;
+    width: 120px;
+    margin-left: 45%;
+    margin-top: 2%;
+}
+
+.notepad-dlg-search .dialogbox {
+  height: 224px;
+  width: 551px;
+}
+
+.notepad-dlgbox {
+  width: 420px;
+  height: 100px;
+  border: 1px solid #06263f;
+  box-shadow: 10px 10px 10px #eee7e7;
+  box-sizing: border-box;
+  cursor: default;
+  margin-left: 200px;
+  position: relative;
+  top: 100px;
+  user-select: none;
+}
+
+.notepad-dlg-titlebar {
+  background-color: rgb(255, 255, 255);
+  font-size: 1.4em;
+  height: 38px;
+}
+
+.notepad-dlg-titlebar .title {
+  left: 10px;
+  line-height: 40px;
+  position: absolute;
+}
+
+.notepad-dlg-titlebar .close-btn {
+  color: gray;
+  line-height: 40px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 40px;
+}
+
+.notepad-dlg-titlebar .close-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+.notepad-dlg-main {
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+  font-size: 1.4em;
+  padding: 14px;
+  position: relative;
+}
+
+.notepad-dlg-main .btn {
+  height: 32px;
+  width: 110px;
+}
+
+
+.notepad-dlg-search .main {
+  height: 184px;
+  padding: 8px;
+}
+
+.notepad-dlg-search .main .txt-content {
+  box-sizing: border-box;
+  height: 30px;
+  margin: 12px;
+  width: 288px;
+}
+
+.notepad-dlg-search .main .btn-search {
+  position: absolute;
+  right: 12px;
+  top: 16px;
+}
+
+.notepad-dlg-search .main .btn-cancel {
+  bottom: 94px;
+  position: absolute;
+  right: 12px;
+}
+
+.notepad-dlg-search .main .search-direction {
+  border: 1px solid #dcdcdc;
+  box-sizing: border-box;
+  height: 60px;
+  left: 230px;
+  padding: 10px 8px;
+  position: absolute;
+  top: 68px;
+  width: 180px;
+}
+
+.notepad-dlg-search .main input[value="down"] {
+  margin-left: 5px;
+}
+
+.notepad-dlg-search .main input[value="capital-sense"] {
+  margin-top: 47px;
+}
+
+.notepad-dlg-search .main input[value="capital-sense2"]{
+ position: absolute;
+ top:152px;
+ left:8px; 
+}
+
+.notepad-dlg-search .main span{
+ position:absolute;
+ top:148px;
+ left :24px;
+}
